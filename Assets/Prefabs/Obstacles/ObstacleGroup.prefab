@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8227363212929071193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8227363212929071192}
+  - component: {fileID: 8227363212929071195}
+  m_Layer: 0
+  m_Name: ObstacleGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8227363212929071192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8227363212929071193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8227363212929071195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8227363212929071193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec87dedc942436499d231e69db4eda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles:
+  - {fileID: 8352958108073206643, guid: fbcc0d48fad4b1547ad7976dd63f6f9e, type: 3}
+  - {fileID: 1334338014413907607, guid: baf853697c7889d44b84342d69ec9ccd, type: 3}
+  - {fileID: 8352958108073206643, guid: 892efca87f3409f4f9f95f230ea200c0, type: 3}
+  - {fileID: 3492211274669314604, guid: 2f9359d6fba77d54294ed37f3b2f812d, type: 3}
+  - {fileID: 8352958108073206643, guid: dffca0b44dcecdb458557fb7261d8b8c, type: 3}
+  - {fileID: 7092444675259878976, guid: 5796af63aa2b4754d9c777d2f55a57b5, type: 3}
+  - {fileID: 8352958108073206643, guid: 5718107c6b7ffbb42bc2dd455355a0d8, type: 3}
+  - {fileID: 8352958108073206643, guid: 2b8f72a1882c0f1409b0e8ac3a03bd70, type: 3}
+  - {fileID: 4663071214645751251, guid: 92179ce005e34ee42b0e7ed72eed2df9, type: 3}
+  nextGroup: {fileID: 0}
