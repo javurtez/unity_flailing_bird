@@ -10,8 +10,9 @@ A flappy bird clone.
 ### Assets Used:
 * Rock Road (Art): https://essssam.itch.io/rocky-roads
 * Monogram (Font): https://datagoblin.itch.io/monogram
+* 今日はお散歩日和。(BGM): https://www.youtube.com/watch?v=CwfnXmywNV0
 
 ### Plugins Used:
+* LeanTween
 * Odin (Not Included)
 * Build Report (Not Included)
-* LeanTween
